@@ -14,6 +14,5 @@ RUN apt-get update \
     /usr/sbin/update-locale LANG=C.UTF-8
 
 ENV LC_ALL C.UTF-8
-USER root
 RUN curl https://install.meteor.com/ | sh && npm -g install npm@latest-2
 RUN npm install -g velocity-cli gulp node-gyp
