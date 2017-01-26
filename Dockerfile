@@ -1,4 +1,4 @@
-FROM node:4.6.2
+FROM ubuntu:16.04
 MAINTAINER The Teknologist <teknologist@gmail.com>
 
 USER root
