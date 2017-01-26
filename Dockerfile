@@ -1,7 +1,7 @@
 FROM node:4.6.2
 MAINTAINER The Teknologist <teknologist@gmail.com>
 
-
+USER root
 RUN apt-get update \
   && apt-get dist-upgrade -y \
         && apt-get install -y --no-install-recommends \
